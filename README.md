@@ -7,19 +7,19 @@ Precisamos propor uma arquitetura para um sistema em nuvem para a Confederação
 
 2. A CBEA também mantém um cadastro de todas as pessoas inscritas na Confederação, cada qual com um número único de matrícula, sejam elas treinadores, sejam nadadores.
 
-2.1. Para os nadadores é mantida a data de inscrição, o nome, o e-mail, diversos telefones, diversos endereços, cada qual com a indicação da rua, número e complemento, sua data de nascimento, o número de medalhas de ouro, prata e bronze que obteve, o número de campeonatos de que já participou e seu sexo.
+  2.1. Para os nadadores é mantida a data de inscrição, o nome, o e-mail, diversos telefones, diversos endereços, cada qual com a indicação da rua, número e complemento, sua data de nascimento, o número de medalhas de ouro, prata e bronze que obteve, o número de campeonatos de que já participou e seu sexo.
 
-2.2. Para os treinadores é mantida a data de inscrição, o nome, seu e-mail, diversos telefones, diversos endereços, cada qual com a indicação da rua, número e complemento, sua formação e o número de títulos que obteve.
+  2.2. Para os treinadores é mantida a data de inscrição, o nome, seu e-mail, diversos telefones, diversos endereços, cada qual com a indicação da rua, número e complemento, sua formação e o número de títulos que obteve.
 
 3. Todo o inscrito está associado a uma equipe, identificada por um código e possuindo um nome, uma data de fundação, um número de títulos e um número de campeonatos disputados.
 
 4. Todas as provas possíveis em um campeonato de natação serão previamente cadastradas (por exemplo: 200m nado de peito masculino).
 
-4.1. Para isto, é necessário cadastrar os estilos (borboleta, costas, peito, livre, medley e revezamento), que receberão um código único e um nome.
+  4.1. Para isto, é necessário cadastrar os estilos (borboleta, costas, peito, livre, medley e revezamento), que receberão um código único e um nome.
 
-4.2. Cada prova é de um estilo e possui uma distância e o sexo dos nadadores, além de um código único.
+  4.2. Cada prova é de um estilo e possui uma distância e o sexo dos nadadores, além de um código único.
 
-4.3. Para cada prova são mantidos diversos recordes, identificados por um código sequencial na prova e possuindo uma data, uma descrição e um tempo.
+  4.3. Para cada prova são mantidos diversos recordes, identificados por um código sequencial na prova e possuindo uma data, uma descrição e um tempo.
 
 5. Cada campeonato inclui diversas das provas que são previamente cadastradas e, obviamente, a mesma prova pode ser disputada em diversos campeonatos.
 
